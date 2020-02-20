@@ -105,20 +105,6 @@ public class SubjectMain {
 		// 使用者輸入url
 		SubjectMain subject = new SubjectMain();
 		List<String> inputData = subject.pasringUrl();
-		// List<String> inputData = new ArrayList<String>();
-		/**
-		 * csv:
-		 * https://quality.data.gov.tw/dq_download_csv.php?nid=8492&md5_url=f08b32bf5dd2f3c34ac1d6ce522d0adb
-		 * 
-		 * json:
-		 * https://quality.data.gov.tw/dq_download_json.php?nid=8492&md5_url=f08b32bf5dd2f3c34ac1d6ce522d0adb
-		 * 
-		 * xml:
-		 * https://quality.data.gov.tw/dq_download_xml.php?nid=8492&md5_url=f08b32bf5dd2f3c34ac1d6ce522d0adb
-		 */
-		// inputData.add(
-		// "https://quality.data.gov.tw/dq_download_json.php?nid=8492&md5_url=f08b32bf5dd2f3c34ac1d6ce522d0adb");
-		// inputData.add("json");
 
 		// 下載檔案
 		DownloadUtil dwn = new DownloadUtil();
